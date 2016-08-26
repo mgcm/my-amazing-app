@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C28DDEC71D705E3400F05B59 /* MySuperAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DDEC61D705E3400F05B59 /* MySuperAPI.swift */; };
+		C28DDEC81D705E3400F05B59 /* MySuperAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DDEC61D705E3400F05B59 /* MySuperAPI.swift */; };
+		C28DDEC91D705E3400F05B59 /* MySuperAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DDEC61D705E3400F05B59 /* MySuperAPI.swift */; };
 		C2B395841D6E1FCD002C281F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B395831D6E1FCD002C281F /* main.m */; };
 		C2B395871D6E1FCD002C281F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B395861D6E1FCD002C281F /* AppDelegate.m */; };
 		C2B3958A1D6E1FCD002C281F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B395891D6E1FCD002C281F /* ViewController.m */; };
@@ -38,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C28DDEC31D705E3400F05B59 /* MyAmazingApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAmazingApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		C28DDEC41D705E3400F05B59 /* MyAmazingAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAmazingAppTests-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		C28DDEC51D705E3400F05B59 /* MyAmazingAppUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAmazingAppUITests-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		C28DDEC61D705E3400F05B59 /* MySuperAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySuperAPI.swift; path = MyAmazingApp/MySuperAPI.swift; sourceTree = "<group>"; };
 		C2B3957F1D6E1FCD002C281F /* MyAmazingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAmazingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B395831D6E1FCD002C281F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2B395851D6E1FCD002C281F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +130,9 @@
 		C2B395821D6E1FCD002C281F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C28DDEC31D705E3400F05B59 /* MyAmazingApp-Bridging-Header.h */,
+				C28DDEC41D705E3400F05B59 /* MyAmazingAppTests-Bridging-Header.h */,
+				C28DDEC51D705E3400F05B59 /* MyAmazingAppUITests-Bridging-Header.h */,
 				C2B395831D6E1FCD002C281F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -151,6 +161,7 @@
 			children = (
 				C2B395B51D6E2181002C281F /* MyAmazingAPI.h */,
 				C2B395B61D6E2181002C281F /* MyAmazingAPI.m */,
+				C28DDEC61D705E3400F05B59 /* MySuperAPI.swift */,
 			);
 			name = MyAmazingAPI;
 			sourceTree = "<group>";
@@ -222,6 +233,7 @@
 				TargetAttributes = {
 					C2B3957E1D6E1FCD002C281F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U8NPX7E25C;
 					};
 					C2B395971D6E1FCD002C281F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -285,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28DDEC71D705E3400F05B59 /* MySuperAPI.swift in Sources */,
 				C2B395B71D6E2181002C281F /* MyAmazingAPI.m in Sources */,
 				C2B3958A1D6E1FCD002C281F /* ViewController.m in Sources */,
 				C2B395871D6E1FCD002C281F /* AppDelegate.m in Sources */,
@@ -296,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28DDEC81D705E3400F05B59 /* MySuperAPI.swift in Sources */,
 				C2B395B81D6E2181002C281F /* MyAmazingAPI.m in Sources */,
 				C2B3959D1D6E1FCD002C281F /* MyAmazingAppTests.m in Sources */,
 			);
@@ -305,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28DDEC91D705E3400F05B59 /* MySuperAPI.swift in Sources */,
 				C2B395B91D6E2181002C281F /* MyAmazingAPI.m in Sources */,
 				C2B395A81D6E1FCE002C281F /* MyAmazingAppUITests.m in Sources */,
 			);
@@ -431,10 +446,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyAmazingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tetrapi.MyAmazingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cb78b1fc-7695-459f-8954-6ec95c5d04a3";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAmazingApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -442,10 +462,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = MyAmazingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tetrapi.MyAmazingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cb78b1fc-7695-459f-8954-6ec95c5d04a3";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAmazingApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -453,10 +477,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyAmazingAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tetrapi.MyAmazingAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAmazingAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAmazingApp.app/MyAmazingApp";
 			};
 			name = Debug;
@@ -465,10 +492,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyAmazingAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tetrapi.MyAmazingAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAmazingAppTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAmazingApp.app/MyAmazingApp";
 			};
 			name = Release;
@@ -476,10 +505,13 @@
 		C2B395B31D6E1FCE002C281F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyAmazingAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tetrapi.MyAmazingAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAmazingAppUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_TARGET_NAME = MyAmazingApp;
 			};
 			name = Debug;
@@ -487,10 +519,12 @@
 		C2B395B41D6E1FCE002C281F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyAmazingAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tetrapi.MyAmazingAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAmazingAppUITests-Bridging-Header.h";
 				TEST_TARGET_NAME = MyAmazingApp;
 			};
 			name = Release;
@@ -514,6 +548,7 @@
 				C2B395AE1D6E1FCE002C281F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2B395AF1D6E1FCE002C281F /* Build configuration list for PBXNativeTarget "MyAmazingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +557,7 @@
 				C2B395B11D6E1FCE002C281F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2B395B21D6E1FCE002C281F /* Build configuration list for PBXNativeTarget "MyAmazingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +566,7 @@
 				C2B395B41D6E1FCE002C281F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
