@@ -11,7 +11,6 @@
 /**
  *  The Amazing API is responsible for testing very magical numbers and checking if they are ON or OFF
  */
-
 @interface MyAmazingAPI : NSObject
 
 /**
