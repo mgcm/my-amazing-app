@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/mgcm/Library/Developer/Shared/Documentation/DocSets/com.tetrapi.myamazingapp.MyAmazingApp.docset
+Time: 2016-08-26 11:41:13 +0000
